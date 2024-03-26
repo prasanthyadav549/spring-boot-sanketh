@@ -1,0 +1,16 @@
+## Disadvantages of Arrays
+  1. Static size 
+  2. mention size in the start
+  3. store similar data types 
+
+  # Static size problem: lets say there are 50 students in the class we created the array of 
+    size 50. now 2 more students are added we need to create the new array of size 52 and 
+    copy previous array elements and add these 2.
+
+  # Mention Size in Start : lets say we declared an array of size 50 . But we are storing only
+                            5 elements. then it is wasting of the remaining size.
+    
+
+## ArrayList:
+   1. allows us to create the resizable arrays.
+   2. also known as the dynamic arrays.

@@ -1,0 +1,8 @@
+Jar: it is a simple java compiled in the form of zip. that we can actually run the 
+     code with this jar.
+
+Commands for Jar:
+  Build: .\gradlew jar
+  to run the jar : java -jar build/libs/{jar-name}
+  to check Tasks: .\gradlew tasks 
+  
