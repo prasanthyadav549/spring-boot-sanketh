@@ -1,0 +1,7 @@
+SPRING : Spring is java framework which contains the bunch of libraries which helps building the things
+         in a much easy way.
+
+SPRING BOOT: Spring boot is a spring project or library which helps you to setup the spring project with 
+             a bunch of predefined configurations . 
+
+
