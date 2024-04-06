@@ -1,0 +1,23 @@
+API - api is a piece of code that is exposing some internal
+      business functionality to the outer world so that they can 
+      actually use it.
+
+REST - set of recommendations to prepare a modern web apis.
+       1. If we follow Rest api conventions then our APIS  
+          become more consistent , readable , stadard that a 
+          lot of developers use .
+
+PRINCIPLES OF REST - 1. All the APIS are designed around the resources.
+                        Resource - any kind of object , data , serive or 
+                        real life entity that a client can access.
+
+                     2. if you want to send and receive data use the json 
+                        format for it.
+
+                     3. if you want to send the data from client to server then 
+                        there are 3 ways 
+                           -> Query Params 
+                           -> URL Params 
+                           -> Body Params 
+                           
+
