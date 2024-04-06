@@ -6,6 +6,19 @@ public class Todo{
 	private String body;
 	private int userId;
 
+	public Todo(int i, String ab, String cd, int i1) {
+		Todo t = new Todo();
+		t.setId(i);
+		t.setTitle(ab);
+		t.setBody(cd);
+		t.setUserId(i1);
+		
+	}
+
+	public Todo() {
+
+	}
+
 	public void setId(int id){
 		this.id = id;
 	}
