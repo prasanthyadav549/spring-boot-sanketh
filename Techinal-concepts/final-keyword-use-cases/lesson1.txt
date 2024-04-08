@@ -1,0 +1,9 @@
+some useful references:
+  1-> https://medium.com/@udaypatil318/final-keyword-in-java-a2774ddfd293
+
+
+
+-> learn about what is final keyword 
+-> what are the use cases of the final keyword 
+final keyword : final keyword indicates that a variable,method,class
+                cannot be modified or extended.
