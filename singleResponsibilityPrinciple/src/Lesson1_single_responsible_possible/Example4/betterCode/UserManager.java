@@ -1,4 +1,4 @@
-package Lesson1.Example4.betterCode;
+package Lesson1_single_responsible_possible.Example4.betterCode;
 
 public class UserManager {
 

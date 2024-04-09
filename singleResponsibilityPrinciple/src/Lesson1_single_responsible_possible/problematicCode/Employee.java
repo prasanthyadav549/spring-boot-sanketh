@@ -1,4 +1,4 @@
-package Lesson1.problematicCode;
+package Lesson1_single_responsible_possible.problematicCode;
 
 public class Employee {
     public int id;

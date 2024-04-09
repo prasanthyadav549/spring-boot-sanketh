@@ -1,4 +1,4 @@
-package Lesson1.betterCode;
+package Lesson1_single_responsible_possible.betterCode;
 
 public class EmployeePerformanceEvaluator {
 
