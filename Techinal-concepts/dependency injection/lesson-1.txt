@@ -1,0 +1,26 @@
+## things to search and get clarified
+  1. why we don't use autowired and use the constructor 
+     based injection.
+  2. primary vs qualifier
+  3. learn about @scope annotation.
+
+## problems of using @autowired
+  1. field injection or using @autowired annotation 
+     makes the testing procedure very hard .
+
+## Reasons to multiple concreate classes of the abstract class.
+   for example 
+     we have one abstract service layer interface 
+       and there are 2 service concrete classes that are 
+       implementing this abstract service layer.
+Solution : lets assume we have a ecommerce app and 
+           it is having the 2 payment gateways.
+           PAYMENT GATEWAYS:
+              1. Razorpay 
+              2. stripe 
+           for a particular type of request I always want to use 
+           the Razorpay but the request is international. we cant 
+           use the Razorpay we need to use the stripe.
+           in this case we need the 2 instances in the same 
+           controller.
+ 
