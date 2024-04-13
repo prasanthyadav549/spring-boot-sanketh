@@ -1,0 +1,28 @@
+First we will see without MVC:
+  1-> If we write the business logic and data base interaction
+      queries everything in a single file.
+      when we are maintaining everything in a single file the code is
+      tightly coupled.
+
+      Problem: lets say we are developing the Ecom application and we are 
+               using the MYSQL database now we want to use the postgres db
+               The actual business logic will not change the change will only
+               the database interactions and queries but due to the code is 
+               tightly coupled we need to go through the every function and 
+               migrate it is a very much kumbersome process and testing also 
+               becomes pretty much hard.
+
+
+    MVC:
+     1. Controller: that part of code which is responsible for collecting incoming 
+        user request and provide it to the models layer then whatever response 
+        models give controller take that and send it to the user.
+
+    2. Model: that part of code where the business logic resides.
+
+    3. DTO LAYER --> Use case to define some api contract.
+    4. DAO LAYER --> Generally the repository layer also known as the DAO LAYER.
+                     DAO means DATA ACCESS OBJECT. It is an object responsible for 
+                     fetching the data for you or interaction with the data for you.
+                     
+                     
