@@ -1,0 +1,14 @@
+Driver finding service   --------------------------------->   Driver app
+                           web socket connection
+
+
+Identify between the driver finding service and the Driver app using the websocket 
+connection is good or not what are the flaws of using the web socket connection.
+
+
+problem2: How to choose which database to use for the project.
+   wrong choice of database causes the problems like 
+     1. extends the downtime of the database.
+     2. customer impact 
+     3. data loss.
+     
