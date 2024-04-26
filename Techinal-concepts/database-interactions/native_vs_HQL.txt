@@ -1,0 +1,18 @@
+## Native Query
+  1. the column names should be as it is.
+  example query:
+          @Query(nativeQuery = true ,value = "select * from Driver where id=:id AND license_number=:licenseNumber")
+          Optional<Driver> rawFindByIdAndLicenseNumner(Long id, String licenseNumber);
+
+  2. errors in the raw sql queries are not identified in the compile time.
+
+
+## Hibernate Query Language
+   1. the column names can be of time camel case.
+   2. to resolve the problem that is present in the raw sql query like 
+      the errors in the raw sql are not identified in the compile time 
+      HQL is fixed that problem. in HQL the errors are identified in the 
+      compile time.
+   3. select *  * will not work in the HQL. 
+   4. example:  @Query("select d from Driver as d where d.id = :id AND d.licenseNumber=:licenseNumber")
+                Optional<Driver> hqlFindByIdAndLicenseNumber(Long id, String licenseNumber);

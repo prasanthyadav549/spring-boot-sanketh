@@ -1,0 +1,19 @@
+## JDBC : provides the direct db interaction . the queries are written in string and psss to the JDBC function 
+          
+          1. Jdbc has connection managers know as the DriverManager class using which we will connect to the 
+             Databases.gives access to the connection pool of the databases.
+
+JDBC is old way of doing things . we JPA .
+
+
+## JPA : means java persistence API . JPA is specification for accessing , persisting and managing the data
+         between the java objects and Relation tables.
+
+         1. JPA is a ABSTRACTION LAYER on top of the JDBC which internally used the JDBC .
+
+         2. Instead of using the RAW queries in jdbc now due to intoduction of JPA we use the 
+            classes , Objects and methods .
+
+         3. JPA contains the interfaces and the annotations.
+         4. Using the JPA interfaces and annotations ORM are the classes that implements those interfaces.
+         
