@@ -23,6 +23,6 @@ public class Driver extends BaseModel{
     private String phoneNumber;
 
     @OneToMany(mappedBy = "driver")
-    @Fetch(FetchMode.SUBSELECT)
+   @Fetch(FetchMode.SUBSELECT)
     private List<Booking> bookings;
 }

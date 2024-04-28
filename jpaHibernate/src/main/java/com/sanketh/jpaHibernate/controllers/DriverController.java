@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @RestController
 public class DriverController {
     private DriverService driverService;
@@ -27,6 +31,13 @@ public class DriverController {
     public ResponseEntity<?> getDriverByLicenseNumber() {
         Driver d = driverService.findByIdAndLicenseNumber(1L, "DT1234");
         return new ResponseEntity<>(d, HttpStatus.ACCEPTED);
+    }
+
+    @GetMapping("/all-drivers")
+    public ResponseEntity<?> getAllDrivers() {
+         List<Long> driverIds = new ArrayList<>(Arrays.asList(1L,2L,3L,4L,5L,6L));
+         String result = driverService.findAllDrivers(driverIds);
+         return new ResponseEntity<>(result, HttpStatus.ACCEPTED);
     }
 
 }
